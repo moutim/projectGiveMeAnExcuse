@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Satisfy&display=swap');
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Rules */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #191414;
+    color: white;
+}
+
+hr {
+    background-color: #1db95480;
+    border: none;
+    height: 1px;
+}
+
+header h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    color: #1DB954;
+}
+
+section:nth-child(1) {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+img {
+    max-width: 550px;
+    width: 90%;
+}
+
+.selection-area {
+    margin: 10px 0;
+}
+
+.selection-area label {
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+.selection-area h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.selection-area button {
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #1db954c4;
+    border: none;
+    padding: 5px 25px;
+}
+
+.excuse-generated {
+    text-decoration: underline;
+    font-size: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #1DB954;
+}
+
+article h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
