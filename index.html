@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give Me An Excuse</title>
+    <script src="assets/js/fetchExcuse.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Give Me An Excuse</h1>
+        <p>In need of an excuse? I'll help you</p>
+    </header>
+
+    <main>
+        <section>
+            <img src="assets/imagens/excuse.gif" alt="">
+        </section>
+        <section class="selection-area">
+            <h3>Choose a category: </h3>
+
+            <input type="radio" name="category" id="family" value="family">
+            <label for="family">Family</label>
+
+            <input type="radio" name="category" id="office" value="office">
+            <label for="office">Office</label>
+
+            <input type="radio" name="category" id="children" value="children">
+            <label for="children">Children</label>
+
+            <input type="radio" name="category" id="college" value="college">
+            <label for="college">College</label>
+
+            <input type="radio" name="category" id="party" value="party">
+            <label for="party">Party</label>
+
+            <button class="send">GIVE ME!</button>
+        </section>
+        <article>
+            <h3>Here it goes...</h3>
+            <p class="excuse-generated"></p>
+        </article>
+    </main>
+</body>
+</html>
